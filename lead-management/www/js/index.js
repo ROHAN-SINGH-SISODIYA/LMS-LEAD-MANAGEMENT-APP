@@ -45,6 +45,6 @@ var app = {
               
     },
     website: function(url) {
-        window.open(url,'_self','location=yes','hidden=no','clearsessioncache=yes','toolbar=no','clearcache=yes','fullscreen=yes');
+        window.open(url,'_blank','location=yes','hidden=no','clearsessioncache=yes','toolbar=no','clearcache=yes','fullscreen=yes');
     }
 };
